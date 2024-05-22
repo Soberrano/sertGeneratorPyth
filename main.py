@@ -84,7 +84,7 @@ for i in range(len(name1_list)):
 
     # ___________kvant______________
     _, _, w, h = d.textbbox((0, 0), kvant_list[i], font=font)
-    d.text(((width - w) / 2 + 100, (770)), kvant_list[i], font=ImageFont.truetype('fonts/Roboto-Light.ttf',35), align ="left", fill=(0, 0, 0))
+    d.text(((width - w) / 2 + 500, (770)), kvant_list[i], font=ImageFont.truetype('fonts/Roboto-Light.ttf',35), align ="center", fill=(0, 0, 0))
 
     # ___________mod______________
     if type(mod_list[i]) == float:
