@@ -104,10 +104,10 @@ for i in range(len(name1_list)):
     d.text(((width - w) / 2 - 500, (1350)), number_list[i], font=ImageFont.truetype('fonts/Roboto-Light.ttf',25), fill=(20, 20, 20))
 
     if "успешно" in txt:
-        im_nice.save("fifochka/certificate_" + name + ".pdf")
+        im_nice.save("res/certificate_" + name + ".pdf")
     elif sert_type == 2:
-        im_none.save("fifochka/certificate_" + name + ".pdf")
+        im_none.save("res/certificate_" + name + ".pdf")
     else:
-        im.save("fifochka/certificate_" + name + ".pdf")
+        im.save("res/certificate_" + name + ".pdf")
     print(f"{count} + {name}")
 
